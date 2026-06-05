@@ -1,10 +1,68 @@
 layout: {zmk_keyboard: sofle}
 layers:
-  BAS: ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '-', Esc, Q, W, E, R, T, Y, U, I, O, P, '$$mdi:backspace-outline$$', ↹, A, S, D, F, G, H, J, K, L,
-    ;, '''', '$$mdi:apple-keyboard-shift$$', Z, X, C, V, B, MUTE, MUTE, N, M, ',', ., /, '$$mdi:apple-keyboard-shift$$', '$$mdi:apple-keyboard-command$$', '$$mdi:apple-keyboard-option$$',
-    '$$mdi:apple-keyboard-control$$', LOW, ⏎, ␣, RAI, '$$mdi:apple-keyboard-control$$', '$$mdi:apple-keyboard-option$$', '$$mdi:apple-keyboard-command$$']
+  BAS:
+  - ESCAPE
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - '='
+  - ↹
+  - Q
+  - O
+  - U
+  - ','
+  - .
+  - Y
+  - W
+  - R
+  - J
+  - F
+  - $$mdi:backspace-outline$$
+  - {t: BACKSPACE, h: LOW}
+  - X
+  - I
+  - E
+  - A
+  - '-'
+  - K
+  - T
+  - N
+  - S
+  - P
+  - ENTER
+  - $$mdi:apple-keyboard-shift$$
+  - H
+  - L
+  - Y
+  - V
+  - /
+  - MUTE
+  - PLAY PAUSE
+  - G
+  - D
+  - M
+  - Z
+  - B
+  - $$mdi:apple-keyboard-shift$$
+  - LEFT CONTROL
+  - $$mdi:apple-keyboard-option$$
+  - LEFT WIN
+  - ␣
+  - {t: LANG HANGEUL, h: LOW}
+  - {t: LANG HANJA, h: RAI}
+  - {t: BACKSPACE, h: toggle}
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-command$$
   LOW:
-  - '`'
+  - Esc
   - F1
   - F2
   - F3
@@ -17,47 +75,47 @@ layers:
   - F10
   - F11
   - RAI
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
-  - F12
-  - {t: ▽, type: trans}
   - '!'
   - '@'
   - '#'
   - $
   - '%'
-  - ^
-  - AMPS
-  - KP MULTIPLY
-  - (
-  - )
-  - '|'
-  - {t: ▽, type: trans}
-  - '='
-  - '-'
-  - KP PLUS
-  - '{'
-  - '}'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ⌦
+  - '7'
+  - '8'
+  - '9'
+  - ':'
+  - F12
+  - {type: held}
   - '['
   - ']'
+  - (
+  - )
+  - '{'
+  - '}'
+  - '4'
+  - '5'
+  - '6'
   - ;
-  - ':'
+  - '|'
+  - {t: ▽, type: trans}
+  - Sft+6
+  - AMPERSAND
+  - '*'
+  - '='
+  - '?'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '0'
+  - '1'
+  - '2'
+  - '3'
   - \
+  - RIGHT SHIFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -78,42 +136,41 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Insert
-  - Print Scrn
-  - CMENU
+  - ''
+  - LEFT ARROW
+  - UP ARROW
+  - ''
+  - ''
+  - '&msc SCRL_UP'
+  - '&mkp LCLK'
+  - '&mmv MOVE_UP'
+  - '&mkp MB2'
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Page Up
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '0'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - $$mdi:apple-keyboard-option$$
+  - ''
   - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-shift$$
-  - {t: ▽, type: trans}
-  - CLCK
-  - ←
-  - ↓
-  - ↑
-  - →
-  - ⌦
-  - $$mdi:backspace-outline$$
+  - ''
+  - RIGHT ARROW
+  - ''
+  - '&msc SCRL_DOWN'
+  - '&mmv MOVE_LEFT'
+  - '&mmv MOVE_DOWN'
+  - '&mmv MOVE_RIGHT'
+  - ''
+  - ''
   - {t: ▽, type: trans}
   - UNDO
   - CUT
   - COPY
   - PASTE
+  - DOWN ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&msc SCRL_LEFT'
+  - '&mkp MCLK'
+  - '&msc SCRL_RIGHT'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -122,6 +179,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
