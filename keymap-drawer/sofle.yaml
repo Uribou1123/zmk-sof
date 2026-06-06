@@ -55,8 +55,8 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - LEFT WIN
   - ␣
-  - {t: LANG HANGEUL, h: LOW}
-  - {t: LANG HANJA, h: RAI}
+  - {t: Ctl+LANG HANJA, h: LOW}
+  - {t: LANG HANGEUL, h: RAI}
   - {t: BACKSPACE, h: toggle}
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
@@ -74,7 +74,7 @@ layers:
   - F9
   - F10
   - F11
-  - RAI
+  - ↹
   - '!'
   - '@'
   - '#'
@@ -98,7 +98,7 @@ layers:
   - '6'
   - ;
   - '|'
-  - {t: ▽, type: trans}
+  - LEFT SHIFT
   - Sft+6
   - AMPERSAND
   - '*'
@@ -112,16 +112,16 @@ layers:
   - '3'
   - \
   - RIGHT SHIFT
+  - $$mdi:apple-keyboard-control$$
+  - LEFT ALT
+  - LEFT WIN
+  - ␣
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - BACKSPACE
+  - RIGHT CONTROL
+  - RIGHT ALT
+  - RIGHT WIN
   RAI:
   - BT CLR
   - BT 1
@@ -145,7 +145,7 @@ layers:
   - '&mkp LCLK'
   - '&mmv MOVE_UP'
   - '&mkp MB2'
-  - ''
+  - '&mkp MB5'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ''
@@ -157,7 +157,7 @@ layers:
   - '&mmv MOVE_LEFT'
   - '&mmv MOVE_DOWN'
   - '&mmv MOVE_RIGHT'
-  - ''
+  - '&mkp MB4'
   - ''
   - {t: ▽, type: trans}
   - UNDO
