@@ -57,7 +57,7 @@ layers:
   - ␣
   - {t: Ctl+LANG HANJA, h: LOW}
   - {t: LANG HANGEUL, h: RAI}
-  - {t: BACKSPACE, h: toggle}
+  - BACKSPACE
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
