@@ -55,7 +55,7 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - LEFT WIN
   - ␣
-  - {t: LANG HANGEUL, h: LOW}
+  - {t: LANG HANJA, h: LOW}
   - {t: LANG HANGEUL, h: RAI}
   - BACKSPACE
   - $$mdi:apple-keyboard-control$$
